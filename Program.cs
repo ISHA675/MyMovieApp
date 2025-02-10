@@ -11,8 +11,6 @@ builder.Services.AddDbContext<MovieContext>(options => options.UseSqlite("Data S
 var app = builder.Build();
 
 
-
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
